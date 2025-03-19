@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculateur de Moyenne</title>
+    <link rel="stylesheet" href="moyenne .css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Calculateur de Moyenne</h1>
+        <p>
+
+        <label for="">Note de Français :</label>
+        <input type="text" id="s1" min="0" max="20" placeholder="Entrez la note" required>
+
+        <label for="">Note d'Anglais :</label>
+        <input type="text" id="s2" min="0" max="20" placeholder="Entrez la note" required>
+
+        <label for="">Note de Maths :</label>
+        <input type="text" id="s3" min="0" max="20" placeholder="Entrez la note" required>
+        <input type="button" value="calculer" class="btn-success" onclick="Moyenne()" style="background-color: green;">
+        <input type="text" value="resultat"  id="s4">
+        </p>
+    </div>
+    <script src="moyenne .js"></script>
+
+
+</body>
+</html>
